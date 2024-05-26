@@ -1,3 +1,13 @@
+#!/bin/bash
+
+# Create directories
+mkdir -p "Routing-and-Switching" "Network-Security" "Wireless-Networking" "Network-Design" "Network-Management" "TCP-IP" "DNS-DHCP" "Load-Balancing" "SDN"
+
+# Create markdown files
+touch "Routing-and-Switching/OSPF.md" "Network-Security/Firewalls.md" "Wireless-Networking/WiFi.md" "Network-Design/SD-WAN.md" "Network-Management/SNMP.md" "TCP-IP/Subnetting.md" "DNS-DHCP/DNS.md" "Load-Balancing/Algorithms.md" "SDN/Overview.md"
+
+# Update README.md
+cat <<EOF > README.md
 # Networking Repository
 
 Welcome to the Networking Repository! This repository contains resources, documentation, and information related to various networking topics. Below is a brief overview of the directories and topics covered in this repository:
@@ -21,3 +31,9 @@ Contributions to this repository are welcome! If you have any networking-related
 ## License
 
 This repository is licensed under the [MIT License](LICENSE).
+EOF
+
+# Commit changes
+git add .
+git commit -m "Set up networking directory structure and README.md"
+git push origin main
