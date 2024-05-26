@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Create directories
-mkdir -p "Networking/Routing-and-Switching" "Networking/Network-Security" "Networking/Wireless-Networking" "Networking/Network-Design" "Networking/Network-Management" "Networking/TCP-IP" "Networking/DNS-DHCP" "Networking/Load-Balancing" "Networking/SDN"
+mkdir -p "Routing-and-Switching" "Network-Security" "Wireless-Networking" "Network-Design" "Network-Management" "TCP-IP" "DNS-DHCP" "Load-Balancing" "SDN"
 
 # Create markdown files
-touch "Networking/Routing-and-Switching/OSPF.md" "Networking/Network-Security/Firewalls.md" "Networking/Wireless-Networking/WiFi.md" "Networking/Network-Design/SD-WAN.md" "Networking/Network-Management/SNMP.md" "Networking/TCP-IP/Subnetting.md" "Networking/DNS-DHCP/DNS.md" "Networking/Load-Balancing/Algorithms.md" "Networking/SDN/Overview.md"
+touch "Routing-and-Switching/OSPF.md" "Network-Security/Firewalls.md" "Wireless-WiFi.md" "Network-Design/SD-WAN.md" "Network-Management/SNMP.md" "TCP-IP/Subnetting.md" "DNS-DHCP/DNS.md" "Load-Balancing/Algorithms.md" "SDN/Overview.md"
 
 # Update README.md
 cat <<EOF > README.md
@@ -14,15 +14,15 @@ Welcome to the Networking Repository! This repository contains resources, docume
 
 ## Directory Structure
 
-- [Routing and Switching](Networking/Routing-and-Switching): Documentation and resources related to routing protocols (e.g., OSPF, BGP) and switching technologies.
-- [Network Security](Networking/Network-Security): Information on network security principles, practices, and technologies (e.g., firewalls, VPNs).
-- [Wireless Networking](Networking/Wireless-Networking): Resources related to wireless network technologies and standards (e.g., Wi-Fi, 5G).
-- [Network Design](Networking/Network-Design): Design principles and best practices for designing networks, including topics like SD-WAN and network virtualization.
-- [Network Management](Networking/Network-Management): Tools and techniques for managing and monitoring networks effectively.
-- [TCP/IP](Networking/TCP-IP): Detailed information on the TCP/IP protocol suite and its applications in networking.
-- [DNS and DHCP](Networking/DNS-DHCP): Documentation on DNS (Domain Name System) and DHCP (Dynamic Host Configuration Protocol) services.
-- [Load Balancing](Networking/Load-Balancing): Information on load balancing techniques and technologies.
-- [SDN (Software-Defined Networking)](Networking/SDN): Resources on SDN concepts, architectures, and implementations.
+- [Routing and Switching](Routing-and-Switching): Documentation and resources related to routing protocols (e.g., OSPF, BGP) and switching technologies.
+- [Network Security](Network-Security): Information on network security principles, practices, and technologies (e.g., firewalls, VPNs).
+- [Wireless Networking](Wireless-Networking): Resources related to wireless network technologies and standards (e.g., Wi-Fi, 5G).
+- [Network Design](Network-Design): Design principles and best practices for designing networks, including topics like SD-WAN and network virtualization.
+- [Network Management](Network-Management): Tools and techniques for managing and monitoring networks effectively.
+- [TCP/IP](TCP-IP): Detailed information on the TCP/IP protocol suite and its applications in networking.
+- [DNS and DHCP](DNS-DHCP): Documentation on DNS (Domain Name System) and DHCP (Dynamic Host Configuration Protocol) services.
+- [Load Balancing](Load-Balancing): Information on load balancing techniques and technologies.
+- [SDN (Software-Defined Networking)](SDN): Resources on SDN concepts, architectures, and implementations.
 
 ## Contributing
 
